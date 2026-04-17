@@ -16,7 +16,7 @@ function App() {
             berbagai proyek akademik yang melatih kemampuan saya dalam merancang dan mengimplementasikan solusi digital.
           </p>
           <div className="flex items-center sm:gap-4 gap-2">
-            <a href="" className="bg-emerald-700 p-4 rounded-2xl hover:bg-emerald-600"><i className="ri-download-2-line ri-lg"></i> Download CV</a>
+            <a href="https://drive.google.com/file/d/1kcPwMOb0xOdy2ZzNR_mSqCVLAOQMxS6V/view?usp=sharing" className="bg-emerald-700 p-4 rounded-2xl hover:bg-emerald-600"><i className="ri-download-2-line ri-lg"></i> Download CV</a>
             <a href="#proyek" className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600"><i className="ri-arrow-down-box-line ri-lg"></i> Lihat Proyek</a>
           </div>
         </div>
