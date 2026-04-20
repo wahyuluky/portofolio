@@ -7,7 +7,7 @@ const mainCategories = [
   { label: "Web", value: "web" },
   { label: "UI/UX Design", value: "uiux" },
   { label: "Design", value: "design" },
-  { label: "Portofolio + CV", value: "pt"},
+  { label: "Portofolio", value: "pt"},
 ];
 
 const moreCategories = [

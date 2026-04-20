@@ -20,7 +20,7 @@ function App() {
             <a href="#proyek" className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600"><i className="ri-arrow-down-box-line ri-lg"></i> Lihat Proyek</a>
           </div>
         </div>
-        <img src={DataImage.HeroImage} alt="Hero Image" className="w-125 md:ml-auto animate__animated animate__fadeInUp animate__delay-4s" loading="lazy" />
+        <img src={DataImage.HeroImage} alt="Hero Image" className="w-125 md:ml-auto animate__animated animate__fadeInUp animate__delay-4s" />
       </div>
 
       {/* About */}
@@ -83,7 +83,7 @@ function App() {
                   ))}
                 </div>
                 <div className="mt-8 text-center">
-                  <a href="#" className="bg-emerald-700 p-3 rounded-lg block border border-zinc-600 hover:bg-emerald-600">Lihat Website</a>
+                  <a href="#" className="bg-emerald-700 p-3 rounded-lg block border border-zinc-600 hover:bg-emerald-600">Lihat di proyek</a>
                 </div>
               </div>
             </div>

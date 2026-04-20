@@ -26,28 +26,58 @@ const timeline = [
 
 const certificates = [
   {
-    title: "Full Stack Developer Internship",
-    issuer: "PT Esa Solusi Mandiri (ESACO)",
+    title: "Pemrograman Web",
+    issuer: "Dicoding",
     year: "2024",
-    link: "https://example.com/certificate1",
+    link: "https://drive.google.com/file/d/1scxcNonO9kiG5pprR73jZpcj4YdT7uIz/view?usp=sharing",
   },
   {
-    title: "UI/UX Design Bootcamp",
-    issuer: "Online Learning Platform",
-    year: "2023",
-    link: "https://example.com/certificate2",
+    title: "CCNAv7: Switching, Routing, and Wireless Essentials",
+    issuer: "Cisco Networking Academy",
+    year: "2024",
+    link: "https://drive.google.com/file/d/1qoj2LPQttNsT-q7dEv6exXB64dkwjABO/view?usp=sharing",
   },
   {
-    title: "UI/UX Design Bootcamp",
-    issuer: "Online Learning Platform",
+    title: "Java",
+    issuer: "Oracle Academy",
     year: "2023",
-    link: "https://example.com/certificate2",
+    link: "https://drive.google.com/file/d/1jkLa8Uh_3PFk-ngN0GjDbt6UB6zvwoOP/view?usp=sharing",
   },
   {
-    title: "UI/UX Design Bootcamp",
-    issuer: "Online Learning Platform",
-    year: "2023",
-    link: "https://example.com/certificate2",
+    title: "FIGMA FOR UI/UX DESIGN",
+    issuer: "Myskill",
+    year: "2024",
+    link: "https://drive.google.com/file/d/1rhE_twJbcvxYU9Nnkicr5epzhadd0sgf/view?usp=sharing",
+  },
+  {
+    title: "USER INTERFACE DESIGN",
+    issuer: "Myskill",
+    year: "2025",
+    link: "https://drive.google.com/file/d/1jp09xaqEmj6tyLmU5_oOaWAOKo3Qn7VV/view?usp=sharing",
+  },
+  {
+    title: "UI-UX RESEARCH AND DESIGN",
+    issuer: "Myskill",
+    year: "2025",
+    link: "https://drive.google.com/file/d/1WakjR15tDT04WUThY5RCOMwp8pKDJgtN/view?usp=sharing",
+  },
+  {
+    title: "USER EXPERIENCE DESIGN",
+    issuer: "Myskill",
+    year: "2025",
+    link: "https://drive.google.com/file/d/1TB5wboXzbSFbO_FZAEwgq5QqFr1YMMDc/view?usp=sharing",
+  },
+  {
+    title: "USER EXPERIENCE RESEARCH",
+    issuer: "Myskill",
+    year: "2025",
+    link: "https://drive.google.com/file/d/1Y2fFYHrj3pMezQ0QZeNLIk4zCrOGRilB/view?usp=sharing",
+  },
+  {
+    title: "USER EXPERIENCE WRITING",
+    issuer: "Myskill",
+    year: "2025",
+    link: "https://drive.google.com/file/d/1vazId273SrQtBWzaxlIlJMq2MTEy7UL_/view?usp=sharing",
   },
 ];
 
