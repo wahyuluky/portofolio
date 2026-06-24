@@ -113,6 +113,10 @@ import Proyek3 from "/assets/proyek/proyek3.webp";
 import Proyek4 from "/assets/proyek/proyek4.webp";
 import Proyek5 from "/assets/proyek/proyek5.webp";
 import Proyek6 from "/assets/proyek/proyek6.webp";
+import Proyek7 from "/assets/proyek/proyek7.webp";
+import Proyek8 from "/assets/proyek/proyek8.webp";
+import Proyek9 from "/assets/proyek/proyek9.webp";
+
 
 export const listProyek = [
   {
@@ -171,37 +175,40 @@ import Projects3 from "/assets/proyek/proyek3.webp";
 import Projects4 from "/assets/proyek/proyek4.webp";
 import Projects5 from "/assets/proyek/proyek5.webp";
 import Projects6 from "/assets/proyek/proyek6.webp";
+import Projects7 from "/assets/proyek/proyek7.webp";
+import Projects8 from "/assets/proyek/proyek8.webp";
+import Projects9 from "/assets/proyek/proyek9.webp";
 
 export const projects = [
   {
     id: 1,
     gambar: Projects1,
     title: "Company Profile",
-    category: "web",
+    category: ["web", "uiux"],
     description: "Website untuk menampilkan informasi perusahaan secara profesional, dinamis, dan terkelola dengan baik.",
-    tech: ["HTML", "CSS", "Javascript", "PHP", "Mysql"],
-    mediumUrl: "https://medium.com/@username/pramuka-app",
-    projectUrl: "https://play.google.com/store/apps/details?id=app.pramuka",
+    tech: ["HTML", "CSS", "Javascript", "PHP", "Mysql", "Figma"],
+    mediumUrl: "https://medium.com/@wahyulukita19/business-consulting-website-ui-ux-case-study-2172a809ded7",
+    projectUrl: "https://www.figma.com/proto/P9QtGaevyRTKL6yTVvny5B/company-profile?node-id=231-4&p=f&t=XCoNOmzi39wPpqN1-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A33",
   },
   {
     id: 2,
     gambar: Projects2,
     title: "HW App",
-    category: "mobile",
+    category: ["mobile", "uiux"],
     description: "Aplikasi pembelajaran Pramuka yang menyediakan materi, latihan, dan informasi kepramukaan secara interaktif",
-    tech: ["Flutter", "Firebase Firestore"],
-    mediumUrl: "https://medium.com/@username/pramuka-app",
-    projectUrl: "https://play.google.com/store/apps/details?id=app.pramuka",
+    tech: ["Flutter", "Firebase Firestore", "Figma"],
+    mediumUrl: "https://medium.com/@wahyulukita19/ui-ux-design-case-study-hw-app-learning-activity-application-a80c405c4845",
+    projectUrl: "https://drive.google.com/file/d/1O-7tM4OoTX172DkgbP2KLWFaPMtnhg_l/view?usp=sharing",
   },
   {
     id: 3,
     gambar: Projects3,
     title: "UI/UX Web Travel",
-    category: "uiux",
+    category: ["uiux"],
     description: "Perancangan UI/UX Website travel dengan tampilan modern, responsif, dan user-friendly untuk menampilkan informasi perjalanan secara menarik dan profesional.",
     tech: ["Figma"],
-    mediumUrl: "https://medium.com/@username/pramuka-app",
-    projectUrl: "https://play.google.com/store/apps/details?id=app.pramuka",
+    // mediumUrl: "https://medium.com/@username/pramuka-app",
+    projectUrl: "https://www.figma.com/proto/FdaeYkMSUSe3rEYVwJmPD7/Travel-Website?node-id=3-2&starting-point-node-id=3%3A2&t=IHIclQD7Gscx549b-1",
   },
   {
     id: 4,
@@ -210,8 +217,8 @@ export const projects = [
     category: "design",
     description: "Desain konten Instagram untuk branding dan promosi organisasi Devcom",
     tech: ["Figma", "Canva"],
-    mediumUrl: "https://medium.com/@username/pramuka-app",
-    projectUrl: "https://play.google.com/store/apps/details?id=app.pramuka",
+    // mediumUrl: "https://medium.com/@username/pramuka-app",
+    // projectUrl: "https://play.google.com/store/apps/details?id=app.pramuka",
   },
   {
     id: 5,
@@ -220,8 +227,8 @@ export const projects = [
     category: "mobile",
     description: "Aplikasi pembelajaran yang membantu pengguna belajar secara terstruktur, interaktif, dan tersinkronisasi secara real-time.",
     tech: ["Flutter", "Firebase Firestore"],
-    mediumUrl: "https://medium.com/@username/pramuka-app",
-    projectUrl: "https://play.google.com/store/apps/details?id=app.pramuka",
+    // mediumUrl: "https://medium.com/@username/pramuka-app",
+    projectUrl: "https://drive.google.com/file/d/1z4ui1vTKIXW5P6_94p42CVXrj_ZNMDpp/view?usp=sharing",
   },
   {
     id: 6,
@@ -230,8 +237,38 @@ export const projects = [
     category: "design",
     description: "Desain konten Instagram untuk branding dan promosi organisasi Kaliber",
     tech: ["Figma", "Canva"],
-    mediumUrl: "https://medium.com/@username/pramuka-app",
-    projectUrl: "https://play.google.com/store/apps/details?id=app.pramuka",
+    // mediumUrl: "#",
+    // projectUrl: "https://play.google.com/store/apps/details?id=app.pramuka",
+  },
+  {
+    id: 7,
+    gambar: Projects7,
+    title: "Portfolio UI/UX Design",
+    category: "pt",
+    description: "Portfolio UI/UX Design yang menampilkan karya desain antarmuka pengguna secara profesional dan menarik",
+    tech: ["Figma", "Framer"],
+    // mediumUrl: "#",
+    projectUrl: "https://drive.google.com/file/d/17OtmPGHgSIQBjK0lF7W18jH12whc7jGs/view?usp=sharing",
+  },
+  {
+    id: 8,
+    gambar: Projects8,
+    title: "Portfolio Desain Grafis",
+    category: "pt",
+    description: "Portfolio Desain Grafis yang menampilkan hasil karya desain yang mencakup berbagai jenis desain visual",
+    tech: ["Figma", "Canva"],
+    // mediumUrl: "#",
+    projectUrl: "https://drive.google.com/file/d/1Mx67wxq5ZMstdbgrXhTdjdIxaPb0oFHS/view?usp=sharing",
+  },
+  {
+    id: 9,
+    gambar: Projects9,
+    title: "Redesign MindStudy App",
+    category: "uiux",
+    description: "Redesign aplikasi MindStudy dengan fokus pada peningkatan UX dan UI",
+    tech: ["Figma"],
+    mediumUrl: "https://medium.com/@wahyulukita19/mindstudy-app-a-ui-ux-journey-72b71d81c461",
+    projectUrl: "https://www.figma.com/proto/jtjDZEQYqhWpFbfzmByMaW/MindStudy-App?node-id=0-1161&starting-point-node-id=0%3A1161&t=CnWZVsQT3SNCOgNq-1",
   },
 ];
 

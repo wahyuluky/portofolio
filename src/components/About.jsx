@@ -182,7 +182,7 @@ export default function About() {
               },
               {
                 title: "Design",
-                tech: ["Figma", "Canva"],
+                tech: ["Figma", "Canva", "Affinity Designer", "Ibis Paint X", "Infinity Painter"],
               },
             ].map((stack, index) => (
               <div

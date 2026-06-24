@@ -21,10 +21,16 @@ export default function Projects() {
   const [activeCategory, setActiveCategory] = useState("all");
   const [showMore, setShowMore] = useState(false);
 
+  // const filteredProjects =
+  //   activeCategory === "all"
+  //     ? projects
+  //     : projects.filter((project) => project.category === activeCategory);
   const filteredProjects =
-    activeCategory === "all"
-      ? projects
-      : projects.filter((project) => project.category === activeCategory);
+  activeCategory === "all"
+    ? projects
+    : projects.filter((project) =>
+        project.category.includes(activeCategory)
+      );
 
   return (
     <section id="projects" className="py-10 bg-zinc-900 text-white">
