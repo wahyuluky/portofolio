@@ -103,11 +103,7 @@ export default function About() {
             About Me
           </h2>
           <p className="text-gray-300 leading-relaxed">
-            Saya adalah mahasiswa Informatika semester 8 yang memiliki minat pada
-            pengembangan website dan aplikasi, serta desain antarmuka
-            digital. Selama perkuliahan, saya terlibat dalam berbagai
-            proyek akademik, organisasi, dan pengalaman magang sebagai
-            Full Stack Web Developer.
+            Saya adalah lulusan Informatika yang memiliki minat pada pengembangan website dan aplikasi, analisis sistem, serta desain antarmuka digital. Selama perkuliahan, saya terlibat dalam berbagai proyek akademik, kegiatan organisasi, dan pengalaman magang dalam pengembangan aplikasi berbasis web.
           </p>
 
           <p className="text-gray-400 mt-4">
