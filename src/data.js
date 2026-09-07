@@ -178,6 +178,7 @@ import Projects6 from "/assets/proyek/proyek6.webp";
 import Projects7 from "/assets/proyek/proyek7.webp";
 import Projects8 from "/assets/proyek/proyek8.webp";
 import Projects9 from "/assets/proyek/proyek9.webp";
+import Projects10 from "/assets/proyek/proyek10.webp";
 
 export const projects = [
   {
@@ -269,6 +270,16 @@ export const projects = [
     tech: ["Figma"],
     mediumUrl: "https://medium.com/@wahyulukita19/mindstudy-app-a-ui-ux-journey-72b71d81c461",
     projectUrl: "https://www.figma.com/proto/jtjDZEQYqhWpFbfzmByMaW/MindStudy-App?node-id=0-1161&starting-point-node-id=0%3A1161&t=CnWZVsQT3SNCOgNq-1",
+  },
+  {
+    id: 10,
+    gambar: Projects10, 
+    title: "HelpDesk – IT Support Ticketing System",
+    category: ["web", "uiux"],
+    description: "HelpDesk adalah website yang dirancang untuk mengelola tiket permintaan dukungan IT, mulai dari pengajuan, pengelolaan, hingga penyelesaian tiket secara terstruktur.",
+    tech: ["Figma", "Laravel", "MySQL", "Vue.js", "Rest API"],
+    // mediumUrl: "https://medium.com/@wahyulukita19/helpdesk-it-support-ticketing-system-4a1c8d5a2b3c",
+    // projectUrl: "https://www.figma.com/proto/0g6k4r9XqjQ6Z0xW7J8V9A/HelpDesk?node-id=0-1&starting-point-node-id=0%3A1&t=G5nYlLzv2pXK4m5C-1",
   },
 ];
 

@@ -19,8 +19,8 @@ const timeline = [
   },
   {
     year: "2025",
-    title: "Internship - Full Stack Web Developer",
-    desc: "Melaksanakan program magang di PT Esa Solusi Mandiri (ESACO) sebagai UI/UX Design dan Full Stack Web Developer. Bertanggung jawab dalam pengembangan aplikasi web, implementasi fitur frontend dan backend, integrasi database, serta perbaikan dan optimalisasi sistem sesuai kebutuhan perusahaan.",
+    title: "Internship - IT Staff at PT Esa Solusi Mandiri (ESACO)",
+    desc: "Melaksanakan program magang di PT Esa Solusi Mandiri (ESACO) sebagai UI/UX Design dan Full Stack Web Developer. Bertanggung jawab dalam perencanaan dan pengembangan aplikasi web, implementasi fitur frontend dan backend, integrasi database, serta perbaikan dan optimalisasi sistem sesuai kebutuhan perusahaan.",
   },
 ];
 
