@@ -74,9 +74,9 @@ function App() {
         <p className="text-base/loose text-center opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">Berikut ini beberapa proyek terbaru yang telah saya buat.</p>
         <div className="proyek-box mt-14 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
           {listProyek.map(proyek => (
-            <div key={proyek.id} className="p-4 bg-zinc-800 rounded-md" data-aos="fade-up" data-aos-duration="1000" data-aos-delay={proyek.dad} data-aos-once="true">
-              <img src={proyek.gambar} alt="Proyek Image" loading="lazy" />
-              <div>
+            <div key={proyek.id} className="p-4 bg-zinc-800 rounded-md h-full flex flex-col" data-aos="fade-up" data-aos-duration="1000" data-aos-delay={proyek.dad} data-aos-once="true">
+              <img src={proyek.gambar} alt="Proyek Image" loading="lazy" className="w-full aspect-video object-cover rounded-md" />
+              <div className="flex flex-col flex-1">
                 <h1 className="text-2xl font-bold my-4">{proyek.nama}</h1>
                 <p className="text-base/loose mb-4">{proyek.desk}</p>
                 <div className="flex flex-wrap gap-2">
@@ -84,8 +84,8 @@ function App() {
                     <p className="py-1 px-3 border border-zinc-500 bg-zinc-600 rounded-md font-semibold" key={index}>{tool}</p>
                   ))}
                 </div>
-                <div className="mt-8 text-center">
-                  <a href="#" className="bg-emerald-700 p-3 rounded-lg block border border-zinc-600 hover:bg-emerald-600">Lihat di proyek</a>
+                <div className="mt-auto pt-8">
+                  <a href="#" className="bg-emerald-700 p-3 rounded-lg block text-center border border-zinc-600 hover:bg-emerald-600">Lihat di proyek</a>
                 </div>
               </div>
             </div>
