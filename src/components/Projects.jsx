@@ -11,10 +11,8 @@ const mainCategories = [
 ];
 
 const moreCategories = [
-  { label: "Data Science", value: "ds" },
-  { label: "Data Analyst", value: "da" },
   { label: "Software Quality Assurance", value: "qa" },
-  { label: "Machine Learning", value: "ml" },
+  { label: "System Analysis", value: "sa" },
 ];
 
 export default function Projects() {
