@@ -113,9 +113,6 @@ import Proyek3 from "/assets/proyek/proyek3.webp";
 import Proyek4 from "/assets/proyek/proyek4.webp";
 import Proyek5 from "/assets/proyek/proyek5.webp";
 import Proyek6 from "/assets/proyek/proyek6.webp";
-import Proyek7 from "/assets/proyek/proyek7.webp";
-import Proyek8 from "/assets/proyek/proyek8.webp";
-import Proyek9 from "/assets/proyek/proyek9.webp";
 
 
 export const listProyek = [
@@ -179,6 +176,7 @@ import Projects7 from "/assets/proyek/proyek7.webp";
 import Projects8 from "/assets/proyek/proyek8.webp";
 import Projects9 from "/assets/proyek/proyek9.webp";
 import Projects10 from "/assets/proyek/proyek10.webp";
+import Projects11 from "/assets/proyek/proyek11.webp";
 
 export const projects = [
   {
@@ -281,6 +279,16 @@ export const projects = [
     // mediumUrl: "https://medium.com/@wahyulukita19/helpdesk-it-support-ticketing-system-4a1c8d5a2b3c",
     // projectUrl: "https://www.figma.com/proto/0g6k4r9XqjQ6Z0xW7J8V9A/HelpDesk?node-id=0-1&starting-point-node-id=0%3A1&t=G5nYlLzv2pXK4m5C-1",
   },
+  {
+    id: 11,
+    gambar: Projects11,
+    title: "Dokumentasi Proyek HelpDesk  IT Support Ticketing System",
+    category: ["sa"],
+    description: "Dokumentasi proyek HelpDesk – IT Support Ticketing System yang mencakup proses dan metodologi yang digunakan.",
+    tech: ["Figma", "Whimsical", "ERD", "SRS", "URS", "Flowchart", "Use Case", "Activity Diagram"],
+    // mediumUrl: "https://medium.com/@wahyulukita19/helpdesk-it-support-ticketing-system-4a1c8d5a2b3c",
+    projectUrl: "https://drive.google.com/drive/folders/1d0u7zAnOg-1wUeidhoWF81H9vDgsTNPQ?usp=sharing",
+  }
 ];
 
 

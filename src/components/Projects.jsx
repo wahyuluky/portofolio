@@ -12,7 +12,7 @@ const mainCategories = [
 
 const moreCategories = [
   { label: "Software Quality Assurance", value: "qa" },
-  { label: "System Analysis", value: "sa" },
+  { label: "System Analyst", value: "sa" },
 ];
 
 export default function Projects() {

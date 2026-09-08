@@ -9,12 +9,12 @@ const timeline = [
   },
   {
     year: "2023-2025",
-    title: "Staff Desain — Developer Community (DevCom)",
-    desc: "Berperan sebagai staff desain dengan fokus pada pembuatan konten visual, UI/UX untuk kebutuhan internal komunitas, serta desain media publikasi kegiatan pengembangan teknologi dan pemrograman.",
+    title: "Staff Desain - Developer Community (DevCom)",
+    desc: "Berperan sebagai staff desain dengan fokus pada pembuatan konten visual untuk kebutuhan internal komunitas, serta desain media publikasi kegiatan pengembangan teknologi dan pemrograman.",
   },
   {
     year: "2024-2025",
-    title: "Bendahara Umum — Kaliber",
+    title: "Bendahara Umum - Kaliber",
     desc: "Bertanggung jawab atas pengelolaan keuangan organisasi, penyusunan laporan kas, perencanaan anggaran kegiatan, serta memastikan transparansi dan akuntabilitas keuangan. Terlibat aktif dalam pengambilan keputusan strategis organisasi.",
   },
   {
@@ -78,6 +78,42 @@ const certificates = [
     issuer: "Myskill",
     year: "2025",
     link: "https://drive.google.com/file/d/1vazId273SrQtBWzaxlIlJMq2MTEy7UL_/view?usp=sharing",
+  },
+  {
+    title: "Web Development Fundamentals",
+    issuer: "IBM SkillsBuild",
+    year: "2026",
+    link: "https://drive.google.com/file/d/1iXXanrSOdz2mEvZ8ViTqOjYkx_VEZFJO/view?usp=sharing",
+  },
+  {
+    title: "Backend Web Development",
+    issuer: "IBM SkillsBuild",
+    year: "2026",
+    link: "https://drive.google.com/file/d/1HmZZ5Is1HlhttZ7RzWOwDQ233vMNHZyT/view?usp=sharing",
+  },
+  {
+    title: "Front-End Web Development",
+    issuer: "IBM SkillsBuild",
+    year: "2026",
+    link: "https://drive.google.com/file/d/1MqWfimRmlFfqD_pG-LULm-tqX6gn5O95/view?usp=sharing",
+  },
+  {
+    title: "Prompt Engineering untuk Software Developer",
+    issuer: "Dicoding",
+    year: "2026",
+    link: "https://drive.google.com/file/d/14xHHtjr-sZ0gpkk5YYEGooTqeW-rgWY1/view?usp=sharing",
+  },
+  {
+    title: "Membangun Aplikasi Gen AI dengan Microsoft Azure",
+    issuer: "Dicoding",
+    year: "2026",
+    link: "https://drive.google.com/file/d/1V1j72D1Ak83kda4xlq4a92HfIoLRWAAy/view?usp=sharing",
+  },
+  {
+    title: "Belajar Penerapan Data Science dengan Microsoft Fabric",
+    issuer: "Dicoding",
+    year: "2026",
+    link: "https://drive.google.com/file/d/1b2NKRcPX8KCyfKXg00_vBEcs6Klb_YI2/view?usp=sharing",
   },
 ];
 
