@@ -198,7 +198,7 @@ export default function About() {
             {[
               {
                 title: "Framework",
-                tech: ["React", "Tailwind CSS", "Bootstrap", "Flutter", "Laravel", "Vue", "Next"],
+                tech: ["React", "Tailwind CSS", "Bootstrap", "Flutter", "Laravel", "Vue"],
               },
               {
                 title: "Database",
@@ -214,7 +214,7 @@ export default function About() {
               },
               {
                 title: "Design",
-                tech: ["Figma", "Canva", "Affinity Designer", "Ibis Paint X", "Infinity Painter"],
+                tech: ["Figma", "Canva"],
               },
             ].map((stack, index) => (
               <div

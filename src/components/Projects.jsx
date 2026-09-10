@@ -95,20 +95,20 @@ export default function Projects() {
           {filteredProjects.map((project) => (
             <div
               key={project.id}
-              className="bg-gray-900 rounded-xl overflow-hidden hover:shadow-lg hover:shadow-indigo-500/10 transition"
+              className="bg-gray-900 rounded-xl overflow-hidden hover:shadow-lg hover:shadow-indigo-500/10 transition flex flex-col h-full"
             >
 
               {/* Image */}
-              <div className="h-40 overflow-hidden">
+              <div className="h-50 overflow-hidden shrink-0">
                 <img
                   src={project.gambar}
                   alt={project.title}
-                  className="w-full h-full object-cover hover:scale-105 transition duration-300"
+                  className="w-full aspect-video object-cover rounded-md hover:scale-105 transition duration-300"
                 />
               </div>
 
               {/* Content */}
-              <div className="p-6">
+              <div className="p-6 flex flex-col flex-1">
 
                 <h3 className="text-lg font-semibold mb-2">
                   {project.title}
@@ -131,7 +131,7 @@ export default function Projects() {
                 </div>
 
                 {/* CTA Buttons */}
-                <div className="mt-6 flex gap-3">
+                <div className="mt-auto pt-6 flex gap-3">
 
                   {/* Medium */}
                   <a

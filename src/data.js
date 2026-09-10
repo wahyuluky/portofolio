@@ -9,7 +9,7 @@ export default Image;
 
 import Tools1 from "/assets/tools/vscode.png";
 import Tools2 from "/assets/tools/reactjs.png";
-import Tools3 from "/assets/tools/nextjs.png";
+import Tools3 from "/assets/tools/flutter.png";
 import Tools4 from "/assets/tools/laravel.png";
 import Tools5 from "/assets/tools/vue.png";
 import Tools6 from "/assets/tools/tailwind.png";
@@ -38,7 +38,7 @@ export const listTools = [
   {
     id: 3,
     gambar: Tools3,
-    nama: "Next JS",
+    nama: "Flutter",
     ket: "Framework",
     dad: "300",
   },
@@ -95,7 +95,7 @@ export const listTools = [
     id: 11,
     gambar: Tools11,
     nama: "Canva",
-    ket: "Design App",
+    ket: "Design Graphic",
     dad: "1000",
   },
   {
@@ -285,7 +285,7 @@ export const projects = [
     title: "Dokumentasi Proyek HelpDesk  IT Support Ticketing System",
     category: ["sa"],
     description: "Dokumentasi proyek HelpDesk – IT Support Ticketing System yang mencakup proses dan metodologi yang digunakan.",
-    tech: ["Figma", "Whimsical", "ERD", "SRS", "URS", "Flowchart", "Use Case", "Activity Diagram"],
+    tech: ["Figma", "Whimsical", "ERD", "SRS", "URS", "Flowchart", "Use Case"],
     // mediumUrl: "https://medium.com/@wahyulukita19/helpdesk-it-support-ticketing-system-4a1c8d5a2b3c",
     projectUrl: "https://drive.google.com/drive/folders/1d0u7zAnOg-1wUeidhoWF81H9vDgsTNPQ?usp=sharing",
   }
