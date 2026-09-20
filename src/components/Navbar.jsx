@@ -42,6 +42,7 @@ const navbar = () => {
             <li><Link className="sm:text-lg text-base font-medium" to="/">Beranda</Link></li>
             <li><Link className="sm:text-lg text-base font-medium" to="/about">Tentang</Link></li>
             <li><Link className="sm:text-lg text-base font-medium" to="/projects">Proyek</Link></li>
+            <li><Link className="sm:text-lg text-base font-medium" to="/courses">Akademik</Link></li>
             <li><button onClick={() => scrollToSection("kontak")} className="sm:text-lg text-base font-medium">Kontak</button></li>
         </ul>
     </div>

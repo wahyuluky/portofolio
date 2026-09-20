@@ -139,13 +139,15 @@ export default function About() {
             About Me
           </h2>
           <p className="text-gray-300 leading-relaxed">
-            Saya adalah lulusan Informatika yang memiliki minat pada pengembangan website dan aplikasi, analisis sistem, serta desain antarmuka digital. Selama perkuliahan, saya terlibat dalam berbagai proyek akademik, kegiatan organisasi, dan pengalaman magang dalam pengembangan aplikasi berbasis web.
+            Selama perkuliahan, saya terlibat dalam berbagai proyek akademik, 
+            kegiatan organisasi, dan pengalaman magang yang memberikan pengalaman 
+            dalam pengembangan aplikasi, pengolahan data, database, UI/UX, testing, dan debugging.
           </p>
 
           <p className="text-gray-400 mt-4">
-            Saya fokus pada pengembangan sistem yang terstruktur,
-            fungsional, dan memiliki pengalaman pengguna yang baik
-            dengan pendekatan modern dan teknologi terkini.
+            Saya senang mempelajari teknologi baru dan terus mengembangkan kemampuan untuk 
+            membangun solusi yang fungsional dan sesuai dengan kebutuhan pengguna. Saat ini, 
+            saya terbuka untuk kesempatan entry-level di berbagai bidang IT.
           </p>
         </motion.div>
 
@@ -216,6 +218,14 @@ export default function About() {
                 title: "Design",
                 tech: ["Figma", "Canva"],
               },
+              {
+                title: "Data Analysis",
+                tech: ["Microsoft Excel", "Data Processing", "Data Cleaning", "Python", "Text Analysis", "TF-IDF"],
+              },
+              {
+                title: "Data Science",
+                tech: ["Naive Bayes", "Decision Trees", "Machine Learning", "BERT", "FastText", "Bag of Words", "Natural Language Processing"],
+              }
             ].map((stack, index) => (
               <div
                 key={index}

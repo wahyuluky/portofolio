@@ -10,12 +10,10 @@ function App() {
         <div className="animate__animated animate__fadeInUp animate__delay-1s">
           <h1 className="text-5xl/tight font-bold mb-10">Hi, Saya Wahyu Lukytaningtyas</h1>
           <p className="text-base/loose mb-6 opacity-50">
-            Saya adalah lulusan Informatika dengan dasar kemampuan yang kuat dalam pengembangan perangkat lunak, 
-            analisis sistem, serta pengembangan aplikasi web dan mobile. Berpengalaman mengerjakan proyek akademik, 
-            personal, dan magang yang meliputi analisis sistem, pengembangan frontend dan backend, perancangan basis 
-            data, pengujian, dan debugging. Memiliki pengalaman menggunakan HTML, CSS, JavaScript, Vue.js, PHP, Laravel, 
-            MySQL, REST API, dan Flutter. Tertarik pada peluang tingkat pemula di bidang IT System Development, Software 
-            Development, Web Development, dan System Analysis.
+            Lulusan Informatika dengan kemampuan dalam software development, system analysis, data analysis, 
+            serta web dan mobile development. Berpengalaman dalam proyek akademik, personal, dan magang yang 
+            mencakup pengembangan aplikasi, pengolahan data, database, UI/UX, testing, dan debugging. Terbuka 
+            terhadap peluang entry-level di berbagai bidang IT.
           </p>
           <div className="flex items-center sm:gap-4 gap-2">
             <a href="https://drive.google.com/file/d/1qOomN3WZ6ZhSSsjZyXrbfKTXUxbIxhvm/view?usp=sharing" className="bg-emerald-700 p-4 rounded-2xl hover:bg-emerald-600"><i className="ri-download-2-line ri-lg"></i> Download CV</a>
@@ -30,7 +28,7 @@ function App() {
         <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
         <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md mb-10 sm:hidden" loading="lazy"/>
           <p className="text-base/loose mb-10">
-            Hi, perkenalkan saya Wahyu Lukytaningtyas, lulusan Informatika dengan minat pada software development, khususnya pengembangan aplikasi dan website serta analisis sistem. Selama perkuliahan dan magang, saya mendapatkan pengalaman dalam pengembangan frontend dan backend, perancangan database, testing, dan debugging. Saya tertarik untuk terus mengembangkan kemampuan dalam membangun sistem yang fungsional, efektif, dan sesuai dengan kebutuhan pengguna.
+            Hi, perkenalkan saya Wahyu Lukytaningtyas, lulusan Informatika dengan minat pada software development, system analysis, data analysis, serta pengembangan web dan mobile. Selama kuliah dan magang, saya mendapatkan pengalaman dalam pengembangan aplikasi, pengolahan data, database, UI/UX, testing, dan debugging. Saya tertarik untuk terus mengembangkan kemampuan dan berkontribusi dalam berbagai bidang IT.
           </p>
           <div className="flex items-center justify-between">
             <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md sm:block hidden" loading="lazy" />
@@ -53,7 +51,7 @@ function App() {
 
         <div className="tools mt-32">
           <h1 className="text-4xl/snug font-bold mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">Tools yang dipakai</h1>
-          <p className="xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w3/4 w-full text-base/loose opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">Berikut ini beberapa tools yang biasa saya pakai untuk pembuatan Website, Mobile ataupun Design</p>
+          <p className="xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w3/4 w-full text-base/loose opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">Berikut ini beberapa tools yang biasa saya pakai</p>
           <div className="tools-box mt-14 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
             {listTools.map(tool => (
               <div className="flex items-center gap-2 p-3 border border-zinc-600 rounded-md hover:bg-zinc-800 group" key={tool.id} data-aos="fade-up" data-aos-duration="1000" data-aos-delay={tool.dad} data-aos-once="true">

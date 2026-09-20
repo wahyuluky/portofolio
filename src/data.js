@@ -177,6 +177,8 @@ import Projects8 from "/assets/proyek/proyek8.webp";
 import Projects9 from "/assets/proyek/proyek9.webp";
 import Projects10 from "/assets/proyek/proyek10.webp";
 import Projects11 from "/assets/proyek/proyek11.webp";
+import Projects12 from "/assets/proyek/proyek12.webp";
+import Projects13 from "/assets/proyek/proyek13.webp";
 
 export const projects = [
   {
@@ -288,6 +290,26 @@ export const projects = [
     tech: ["Figma", "Whimsical", "ERD", "SRS", "URS", "Flowchart", "Use Case"],
     // mediumUrl: "https://medium.com/@wahyulukita19/helpdesk-it-support-ticketing-system-4a1c8d5a2b3c",
     projectUrl: "https://drive.google.com/drive/folders/1d0u7zAnOg-1wUeidhoWF81H9vDgsTNPQ?usp=sharing",
+  },
+  {
+    id: 12,
+    gambar: Projects12,
+    title: "Sentiment Analysis for Book Reviews",
+    category: ["ml", "ai", "da"],
+    description: "A machine learning project that analyzes book reviews to determine the sentiment (positive, negative, neutral or other) expressed in the text.",
+    tech: ["Python", "Scikit-learn", "Natural Language Processing (NLP)"],
+    mediumUrl: "https://docs.google.com/document/d/1_giPel0vA0lP5_AfXnhdxQ7PWuw5RACUM426dW08IFE/edit?usp=drive_link",
+    projectUrl: "https://colab.research.google.com/drive/1j30qr5QDnasv4iAgKA39Tx0KZ6XvAHDb?usp=sharing",
+  },
+  {
+    id: 13,
+    gambar: Projects13,
+    title: "Prediction of Sidoarjo District Court Decisions",
+    category: ["ml", "ai", "da"],
+    description: "A machine learning project that predicts the outcomes of court decisions in Sidoarjo District Court based on historical data and relevant features.",
+    tech: ["Python", "Scikit-learn", "Computer Reasoning"],
+    mediumUrl: "https://docs.google.com/document/d/18yyFK0nCtXrg0m7pc_jy2dLBWAN_mCZ6/edit?usp=sharing&ouid=114412487589832003063&rtpof=true&sd=true",
+    projectUrl: "https://colab.research.google.com/drive/132Q910GNIas3RaILSeV6ebunEJjbvmPv?usp=sharing",
   }
 ];
 

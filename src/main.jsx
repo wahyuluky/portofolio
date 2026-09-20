@@ -8,6 +8,7 @@ import Navbar from './components/Navbar.jsx'
 import Footer from './components/Footer.jsx'
 import PreLoader from './components/PreLoader.jsx'
 import Projects from './components/Projects.jsx'
+import Courses from './components/Courses.jsx'
 
 import 'remixicon/fonts/remixicon.css'
 import 'animate.css'
@@ -28,6 +29,7 @@ createRoot(document.getElementById('root')).render(
           <Route path="/" element={<App />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/about" element={<About />} />
+          <Route path="/courses" element={<Courses />} />
         </Routes>
 
         <Footer />
